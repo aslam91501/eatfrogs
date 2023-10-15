@@ -4,16 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
-<body>
-   <div class="bg-red-500">Hello</div>
+<body class="p-3">
+    <style>
+        html { padding:20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+        #menu{
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 10px;
+        }
+
+        a{ text-decoration: none; }
+
+        p{line-height: 1.7;}
+    </style>
+
+   <h1>Life Index</h1>
+
+   <h2>Menu</h2>
+   <div id="menu">
+        <a href="#morningRoutine">Morning Routine</a>
+        <a href="#currentGoals">Current Goals</a>
+        <a href="#currentHabits">Current Habits</a>
+        <a href="#dailyread">Daily Read</a>
+        <a href="#currentGoals">Current Goals</a>
+   </div>
+
+   <div id="currentGoals">
+        <h2>Current Goals</h2>
+        <p>Being an NWR. Daily consistency, freedom, detachment and peace of mind.</p>
+        <p>Get into a healthy body fat level. By current estimates it should only take 3-4 20-minute sprint sessions to achieve this.</p>
+        <p>Making daily progress on the LAF Project. Aiming to launch with 4 days of work.</p>
+        <p>Taking notes and studying for backlogs. Aiming to finish current semester in about 20 days, moving a module a day.</p>
+   </div>
+
+   <div id="currentHabits">
+        <h2>Current Habits</h2>
+        <ol style="line-height: 1.7;">
+            <li>Reflect Everyday (Spiritual)</li>
+            <li>Eat the frog</li>
+            <li>Study</li>
+            <li>Code for fun.</li>
+        </ol>
+   </div>
+
+   <div id="dailyread">
+        <h2>Daily to do / reading.</h2>
+        <ol style="line-height: 1.7;">
+            <li>Daily time for reflection (spiritual)</li>
+            <li>Do GTD daily.</li>
+            <li>Check and update Schedule</li>
+            <li>Use white noise for focus tasks</li>
+            <li>Eat the frog</li>
+            <li>Chain habits, Atomic habits, Keystone habits</li>
+            <li>Imitate, imitate, imitate</li>
+            <li>Negative emotions are not useful</li>
+            <li>Focus, pick one thing and do it.</li>
+        </ol>
+   </div>
+
+
+   <div id="morningRoutine">
+        <h2>Morning</h2>
+        <ol style="line-height: 1.7;">
+            <li>Brush / Shower</li>
+            <li>Eat Magnesium / Zinc tablets</li>
+            <li>Eat allergy medicine</li>
+            <li>Calm down (5 minutes)</li>
+            <li>Pray fajr</li>
+        </ol>
+    </div>
+
+
+    <div id="eveningRoutine">
+        <h2>Morning</h2>
+        <ol style="line-height: 1.7;">
+            <li>Brush</li>
+            <li>Set next day tasks.</li>
+            <li>Dua</li>
+            <li>Finish incomplete prayers (set 25 minutes for this)</li>
+            <li>Relax</li>
+        </ol>
+    </div>
+
+
 
    <script>
-        const password = prompt("Hi there.");
+        // const password = prompt("Hi there.");
 
-        if(password !== 'greenarrow')
-            window.location.replace("http://google.com")
+        // if(password !== 'greenarrow')
+        //     window.location.replace("http://google.com")
    </script>
 </body>
 </html>
